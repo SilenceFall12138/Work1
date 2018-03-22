@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 	FILE *fp1;
 	FILE *fp2;
 	char buf[34] ={0};
-	if(argc == 1)
+	if(argc != 3)
 	{
 		printf("Error!\nFor example:./cp xxxx xxxx\n");
 		exit(1);
